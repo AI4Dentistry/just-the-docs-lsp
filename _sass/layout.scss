@@ -234,13 +234,13 @@
   .main-header {
     background:url($heroBackground) center no-repeat;
     background-size:cover;
-    padding-bottom:150px;
+    padding-bottom:250px;
   
     @include mq(md) {
-      padding-bottom:150px;
+      padding-bottom:250px;
     }
     @include mq(lg) {
-      padding-bottom:150px;
+      padding-bottom:250px;
     }
   }
 } 
