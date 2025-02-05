@@ -1,6 +1,6 @@
 .hero {
     @include container;
-    padding-left: 0;
+    padding: 0 0 0;
 }
 .hero-inner {
     @include background-opacity($hero-background-color, $hero-background-opacity);
