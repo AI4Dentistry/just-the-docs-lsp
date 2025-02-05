@@ -3,6 +3,8 @@
 }
 .hero-inner {
     @include background-opacity($hero-background-color, $hero-background-opacity);
+    position: relative;
+    left: 3%;  // Keeps it on the leftmost side
     max-width:620px;
     padding:$sp-4 $sp-4 $sp-5;
     margin-top:30px;
