@@ -92,9 +92,12 @@ license:
 
 # Linked logos
 footer_logos:
-  - name: "Laboratory of Systems Pharmacology"
+  - name: "King's Collge London"
     image: "/assets/images/kcl.svg"
     url: "https://www.kcl.ac.uk/dentistry/research/centre-for-oral-clinical-translational-sciences"
+  - name: "University of Surrey"
+    image: "/assets/images/surrey.png"
+    url: "https://www.surrey.ac.uk/"
   - name: "Harvard Medical School"
     image: "/assets/images/logo_hms.svg"
     url: "https://fundingawards.nihr.ac.uk/award/NIHR204566"
