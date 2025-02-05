@@ -17,7 +17,7 @@
         <a href="{{ item.url }}" target="_blank" {% if hasImg %}class="image-link"{% endif %}}>
       {% endif %}
         {% if hasImg %}
-          <img src="{{ item.image | relative_url }}" alt="{{ item.name }}">
+          <img src="{{ item.image | relative_url }}" alt="{{ item.name }}" style="width: 120px; height: auto;">
         {% else %}
           {{ item.name }}
         {% endif %}
