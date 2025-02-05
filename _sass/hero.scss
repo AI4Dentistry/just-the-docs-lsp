@@ -5,22 +5,27 @@
     @include background-opacity($hero-background-color, $hero-background-opacity);
     position: absolute;
     left: 50px;
+    top: 500px;
     
     @include mq(sm) {
         position: absolute;
         left: 50px;
+        top: 500px;
     }
     @include mq(md) {
         position: absolute;
         left: 50px;
+        top: 500px;
     }
     @include mq(lg) {
         position: absolute;
         left: 50px;
+        top: 500px;
     }
     @include mq(xl) {
         position: absolute;
         left: 50px;
+        top: 500px;
     }
 }
 @if variable-exists(heroBackground) {
