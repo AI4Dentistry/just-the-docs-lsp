@@ -5,7 +5,7 @@
     @include background-opacity($hero-background-color, $hero-background-opacity);
     position: absolute;
     left: 3%;  // Keeps it on the leftmost side
-    max-width:570px;
+    max-width:620px;
     //padding:$sp-4 $sp-4 $sp-5;
     margin-top:30px;
 
@@ -13,13 +13,13 @@
         //padding:$sp-6;
     }
     @include mq(md) {
-        max-width:670px;
+        max-width:720px;
         //padding:$sp-7;
         margin-top:36px;
     }
     @include mq(lg) {
         //padding:60px;
-        max-width:870px;
+        max-width:920px;
         margin-top:60px;
         margin-bottom:10px;
     }

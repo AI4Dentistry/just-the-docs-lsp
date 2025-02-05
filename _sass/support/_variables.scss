@@ -88,7 +88,7 @@ $search-background-color: $white !default;
 $table-background-color: $white !default;
 $code-background-color: $grey-lt-000 !default;
 $feedback-color: darken($sidebar-color, 3%) !default;
-$footer-background-color: $blue-000 !default;
+$footer-background-color: $grey-dk-200 !default;
 $branding-background-color: darken($sidebar-color, 3%) !default;
 $branding-background-opacity: .5 !default;
 $hero-background-color: $blue-000 !default;
@@ -97,9 +97,9 @@ $hero-background-opacity: .0 !default;
 $body-text-color: $grey-dk-100 !default;
 $body-heading-color: $blue-200 !default;    // Default heading color
 $body-heading-2-color: $blue-000 !default;  // Target H2 heading color
-$hero-heading-color: $black !default;
-$hero-body-color: $black !default;
-$hero-link-color: $black !default;
+$hero-heading-color: $white !default;
+$hero-body-color: $white !default;
+$hero-link-color: $white !default;
 $top-banner-text-color: $body-text-color !default;
 $search-result-preview-color: $grey-dk-000 !default;
 $nav-child-link-color: $grey-dk-100 !default;
