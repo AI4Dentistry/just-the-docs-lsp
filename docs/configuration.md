@@ -111,12 +111,15 @@ license:
 # Footer logos
 # Specify one or more linked logos to display.
 footer_logos:
-  - name: "Laboratory of Systems Pharmacology"
+  - name: "King's Collge London"
     image: "/assets/images/kcl.svg"
     url: "https://www.kcl.ac.uk/dentistry/research/centre-for-oral-clinical-translational-sciences"
-  - name: "Harvard Medical School"  # the institution the logo represents
-    image: "assets/images/logo_hms.svg"  # path to the logo file
-    url: "https://fundingawards.nihr.ac.uk/award/NIHR204566"  # link to the institution (opens in new tab)
+  - name: "University of Surrey"
+    image: "/assets/images/surrey.png"
+    url: "https://www.surrey.ac.uk/"
+  - name: "Harvard Medical School"
+    image: "/assets/images/logo_hms.svg"
+    url: "https://fundingawards.nihr.ac.uk/award/NIHR204566"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
