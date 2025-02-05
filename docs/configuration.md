@@ -116,7 +116,7 @@ footer_logos:
     url: "https://www.kcl.ac.uk/dentistry/research/centre-for-oral-clinical-translational-sciences"
   - name: "Harvard Medical School"  # the institution the logo represents
     image: "assets/images/logo_hms.svg"  # path to the logo file
-    url: "https://hms.harvard.edu/"  # link to the institution (opens in new tab)
+    url: "https://fundingawards.nihr.ac.uk/award/NIHR204566"  # link to the institution (opens in new tab)
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter

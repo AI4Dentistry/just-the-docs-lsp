@@ -97,7 +97,7 @@ footer_logos:
     url: "https://www.kcl.ac.uk/dentistry/research/centre-for-oral-clinical-translational-sciences"
   - name: "Harvard Medical School"
     image: "/assets/images/logo_hms.svg"
-    url: "https://hms.harvard.edu/"
+    url: "https://fundingawards.nihr.ac.uk/award/NIHR204566"
 
 # Footer last edited timestamp
 last_edit_timestamp: false # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
