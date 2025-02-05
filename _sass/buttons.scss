@@ -116,7 +116,7 @@
     background-color:$arrow-btn-color;
     mask:url(../images/arrow.svg) no-repeat 0% 50%;
     -webkit-mask:url(../images/arrow.svg) no-repeat 0% 50%;
-    mask-size:contain;
+    mask-size:50%;
     -webkit-mask-size:contain;
     transition:transform 0.2s ease-out;
   }
