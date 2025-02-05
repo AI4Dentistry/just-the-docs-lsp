@@ -3,27 +3,24 @@
 }
 .hero-inner {
     @include background-opacity($hero-background-color, $hero-background-opacity);
-    max-width:620px;
-    padding:$sp-4 $sp-4 $sp-5;
-    margin-top:30px;
+    position: absolute;
+    left: 0;
     
     @include mq(sm) {
-        padding:$sp-6;
+        position: absolute;
+        left: 0;
     }
     @include mq(md) {
-        max-width:720px;
-        padding:$sp-7;
-        margin-top:36px;
+        position: absolute;
+        left: 0;
     }
     @include mq(lg) {
-        padding:60px;
-        max-width:920px;
-        margin-top:60px;
-        margin-bottom:10px;
+        position: absolute;
+        left: 0;
     }
     @include mq(xl) {
-        margin-top:75px;
-        margin-bottom:20px;
+        position: absolute;
+        left: 0;
     }
 }
 @if variable-exists(heroBackground) {
