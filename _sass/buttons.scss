@@ -114,10 +114,10 @@
     margin-left:.5em;
     display:inline-block;
     background-color:$arrow-btn-color;
-    mask:url(../images/arrow.svg) no-repeat 0% 50%;
-    -webkit-mask:url(../images/arrow.svg) no-repeat 0% 50%;
-    mask-size:50%;
-    -webkit-mask-size:contain;
+    //mask:url(../images/arrow.svg) no-repeat 0% 50%;
+    //-webkit-mask:url(../images/arrow.svg) no-repeat 0% 50%;
+    //mask-size:50%;
+    //-webkit-mask-size:contain;
     transition:transform 0.2s ease-out;
   }
 
