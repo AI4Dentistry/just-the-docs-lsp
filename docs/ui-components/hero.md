@@ -22,6 +22,6 @@ hero_ctas:
   - label: "Get started now"
     link: "#getting-started"
   - label: "View it on GitHub"
-    link: "https://github.com/labsyspharm/just-the-docs-lsp"
+    link: "https://github.com/AI4Dentistry/just-the-docs-lsp"
     target: "_blank"
 ```

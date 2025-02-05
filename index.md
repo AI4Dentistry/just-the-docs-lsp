@@ -10,7 +10,7 @@ hero_ctas:
   - label: "Get started now"
     link: "#getting-started"
   - label: "View it on GitHub"
-    link: "https://github.com/labsyspharm/just-the-docs-lsp"
+    link: "https://github.com/AI4Dentistry/just-the-docs-lsp"
     target: "_blank"
 ---
 
@@ -24,7 +24,7 @@ Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generat
 
 1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
 ```yaml
-remote_theme: labsyspharm/just-the-docs-lsp
+remote_theme: AI4Dentistry/just-the-docs-lsp
 ```
 <small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
 
@@ -44,7 +44,7 @@ plugins:
 
 1. Add the following to your site's `_config.yml` to set your theme
 ```yml
-remote_theme: labsyspharm/just-the-docs-lsp
+remote_theme: AI4Dentistry/just-the-docs-lsp
 ```
 
 1. Run your local Jekyll server

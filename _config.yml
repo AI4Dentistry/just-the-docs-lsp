@@ -16,7 +16,7 @@
 title: Just the Docs - LSP Edition
 description: A Jekyll theme for LSP-branded websites
 baseurl: "/just-the-docs-lsp" # the subpath of your site, e.g. /blog
-url: "https://labsyspharm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://AI4Dentistry.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 logo:
 hero_background: "/assets/images/hero_general-use.jpg"
 
@@ -88,7 +88,7 @@ back_to_top_text: "Back to top"
 license:
   - description: 
     name: "MIT License"
-    url: "https://github.com/labsyspharm/just-the-docs-lsp/blob/master/LICENSE.txt"    
+    url: "https://github.com/AI4Dentistry/just-the-docs-lsp/blob/master/LICENSE.txt"
 
 # Linked logos
 footer_logos:
@@ -106,7 +106,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/labsyspharm/just-the-docs-lsp" # the github URL for your repo
+gh_edit_repository: "https://github.com/AI4Dentistry/just-the-docs-lsp" # the github URL for your repo
 gh_edit_branch: "master" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
