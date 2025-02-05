@@ -83,6 +83,26 @@ layout: table_wrappers
     </div>
   </div>
   <div class="main" id="top">
+    {% if site.background == false %}
+      <div id="main-header" class="main-header" style="padding: 10px 20px;">
+        {% if site.search_enabled != false %}
+          <div class="search-overlay" id="search-overlay"></div>
+        {% endif %}
+        <div class="main-branding">
+          <a href="{{ '/' | absolute_url }}" class="site-title lh-tight">{% include title.html %}</a>
+          {% if site.search_enabled != false %}
+            <div id="search-desktop-container">
+              <div class="search" id="search">
+                <div class="search-input-wrap">
+                  <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search" aria-label="Search" autocomplete="off">
+                  <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+                </div>
+                <div id="search-results" class="search-results"></div>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+    {% else %}
     <div id="main-header" class="main-header">
       {% if site.search_enabled != false %}
         <div class="search-overlay" id="search-overlay"></div>
@@ -101,6 +121,7 @@ layout: table_wrappers
           </div>
         {% endif %}
       </div>
+    {% endif %}
       {% if hasHeroContent %}
         {% include hero.html %}
       {% endif %}
