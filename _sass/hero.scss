@@ -4,28 +4,28 @@
 .hero-inner {
     @include background-opacity($hero-background-color, $hero-background-opacity);
     position: absolute;
-    left: 1%;  // Keeps it on the leftmost side
-    top: 50%; // Adjust this value to move it up or down
+    left: 5%;  // Keeps it on the leftmost side
+    top: 200px; // Adjust this value to move it up or down
     
     @include mq(sm) {
         position: absolute;
-        left: 1%;  // Keeps it on the leftmost side
-        top: 50%; // Adjust this value to move it up or down
+        left: 5%;  // Keeps it on the leftmost side
+        top: 200px; // Adjust this value to move it up or down
     }
     @include mq(md) {
         position: absolute;
-        left: 1%;  // Keeps it on the leftmost side
-        top: 50%; // Adjust this value to move it up or down
+        left: 5%;  // Keeps it on the leftmost side
+        top: 200px; // Adjust this value to move it up or down
     }
     @include mq(lg) {
         position: absolute;
-        left: 1%;  // Keeps it on the leftmost side
-        top: 50%; // Adjust this value to move it up or down
+        left: 5%;  // Keeps it on the leftmost side
+        top: 200px; // Adjust this value to move it up or down
     }
     @include mq(xl) {
         position: absolute;
-        left: 1%;  // Keeps it on the leftmost side
-        top: 50%; // Adjust this value to move it up or down
+        left: 5%;  // Keeps it on the leftmost side
+        top: 200px; // Adjust this value to move it up or down
     }
 }
 @if variable-exists(heroBackground) {
