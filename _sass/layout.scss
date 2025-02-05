@@ -232,22 +232,18 @@
   // some padding at the bottom of the .main-header element, so 
   // a bit more of the bg image can be seen.
   .main-header {
-      background: url($heroBackground) center no-repeat;
-      background-size: contain;  // Ensures the whole image fits without cropping
-      background-position: center top;
-      background-repeat: no-repeat;
-      height: 100vh;  // Adjust height as needed to display the full image
+    background:url($heroBackground) center no-repeat;
+    background-size:cover;
+    padding-bottom:35px;
 
-      padding-bottom: 100px;
-
-      @include mq(md) {
-          padding-bottom: 150px;
-      }
-      @include mq(lg) {
-          padding-bottom: 200px;
-      }
+    @include mq(md) {
+      padding-bottom:55px;
+    }
+    @include mq(lg) {
+      padding-bottom:75px;
+    }
   }
-} 
+}
 
 // Main hero branding area, where title/logo is displayed
 // in the main content area (both mobile and desktop)
@@ -296,10 +292,10 @@
   @include mq(md) {
     width: $nav-width-md;
   }
-  @include mq(lg) { 
+  @include mq(lg) {
     width: $nav-width-lg;
   }
-  @include mq(xxl) { 
+  @include mq(xxl) {
     width: $nav-width-xxl;
   }
 }
@@ -351,7 +347,7 @@
 
 // On mobile - it is used to display the menu
 // toggle and branding (based on scroll position).
-// On desktop - it displays the site name/logo 
+// On desktop - it displays the site name/logo
 // in the sidebar when user scrolls away from top
 .site-header {
   display: flex;
@@ -384,8 +380,8 @@
     // border-bottom: $border $border-color;
     // display:none;
 
-    // Let's also ensure that the logo stays at the 
-    // original (smallest) height setting for the 
+    // Let's also ensure that the logo stays at the
+    // original (smallest) height setting for the
     // 'logo-height' value (ie. alternate larger
     // screen height values shouldn't affect the
     // logo when displayed in the sidebar)
@@ -404,7 +400,7 @@
   align-items: center;
   color: $body-heading-color;
   padding: $sp-2 $gutter-spacing-sm;
-  
+
   @include mq(sm) {
     padding-right: $gutter-spacing;
     padding-left: $gutter-spacing;
@@ -433,7 +429,7 @@
 
 @if variable-exists(logo) {
   .site-logo {
-    width: 200%;
+    width: 100%;
     height: $logo-height;
     background-image: url($logo);
     background-repeat: no-repeat;
@@ -453,7 +449,7 @@
   .site-header {
     // In the site-header context (top header bar on mobile,
     // and side-bar branding on desktop), the site title needs
-    // to be displayed in a smaller font size when using text 
+    // to be displayed in a smaller font size when using text
     // (ie no logo), which also affects top/bottom padding
     .site-title {
       @include fs-5;
@@ -519,7 +515,7 @@
   .search-input {
     background-color: transparent;
     padding:1rem .25rem 1rem 2.5rem;
-    
+
     &::placeholder {
       @include fs-2;
       text-transform:uppercase;

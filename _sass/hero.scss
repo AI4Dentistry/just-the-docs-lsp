@@ -3,30 +3,27 @@
 }
 .hero-inner {
     @include background-opacity($hero-background-color, $hero-background-opacity);
-    position: absolute;
-    max-width: 550px;
-    left: 3%;  // Keeps it on the leftmost side
-    top: 260px; // Adjust this value to move it up or down
-    
+    max-width:620px;
+    padding:$sp-4 $sp-4 $sp-5;
+    margin-top:30px;
+
     @include mq(sm) {
-        position: absolute;
-        left: 3%;  // Keeps it on the leftmost side
-        top: 280px; // Adjust this value to move it up or down
+        padding:$sp-6;
     }
     @include mq(md) {
-        position: absolute;
-        left: 3%;  // Keeps it on the leftmost side
-        top: 290px; // Adjust this value to move it up or down
+        max-width:720px;
+        padding:$sp-7;
+        margin-top:36px;
     }
     @include mq(lg) {
-        position: absolute;
-        left: 3%;  // Keeps it on the leftmost side
-        top: 325px; // Adjust this value to move it up or down
+        padding:60px;
+        max-width:920px;
+        margin-top:60px;
+        margin-bottom:10px;
     }
     @include mq(xl) {
-        position: absolute;
-        left: 3%;  // Keeps it on the leftmost side
-        top: 30px; // Adjust this value to move it up or down
+        margin-top:75px;
+        margin-bottom:20px;
     }
 }
 @if variable-exists(heroBackground) {
