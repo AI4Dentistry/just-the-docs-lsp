@@ -4,6 +4,7 @@
 .hero-inner {
     @include background-opacity($hero-background-color, $hero-background-opacity);
     position: absolute;
+    max-width: 550px;
     left: 3%;  // Keeps it on the leftmost side
     top: 260px; // Adjust this value to move it up or down
     
@@ -25,7 +26,7 @@
     @include mq(xl) {
         position: absolute;
         left: 3%;  // Keeps it on the leftmost side
-        top: 350px; // Adjust this value to move it up or down
+        top: 30px; // Adjust this value to move it up or down
     }
 }
 @if variable-exists(heroBackground) {
