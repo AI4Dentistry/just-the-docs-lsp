@@ -5,27 +5,27 @@
     @include background-opacity($hero-background-color, $hero-background-opacity);
     position: absolute;
     left: 3%;  // Keeps it on the leftmost side
-    top: 290px; // Adjust this value to move it up or down
+    top: 270px; // Adjust this value to move it up or down
     
     @include mq(sm) {
         position: absolute;
         left: 3%;  // Keeps it on the leftmost side
-        top: 310px; // Adjust this value to move it up or down
+        top: 290px; // Adjust this value to move it up or down
     }
     @include mq(md) {
         position: absolute;
         left: 3%;  // Keeps it on the leftmost side
-        top: 320px; // Adjust this value to move it up or down
+        top: 300px; // Adjust this value to move it up or down
     }
     @include mq(lg) {
         position: absolute;
         left: 3%;  // Keeps it on the leftmost side
-        top: 355px; // Adjust this value to move it up or down
+        top: 335px; // Adjust this value to move it up or down
     }
     @include mq(xl) {
         position: absolute;
         left: 3%;  // Keeps it on the leftmost side
-        top: 380px; // Adjust this value to move it up or down
+        top: 360px; // Adjust this value to move it up or down
     }
 }
 @if variable-exists(heroBackground) {
