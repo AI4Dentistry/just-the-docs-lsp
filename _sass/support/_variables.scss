@@ -180,7 +180,7 @@ $branding-area-height-md: $spacing-unit * 6.875 !default;  // Main logo display 
 $branding-area-height-lg: $spacing-unit * 9.375 !default;  // Main logo display area (large screen size)
 $sidebar-branding-area-height: $spacing-unit * 4.375 !default;  // Height of the logo area in the left sidebar
 $logo-height: 100% !default;  // Logo height relative to branding area size (mobile screen size)
-$logo-height-md: 150% !default;  // Logo height relative to branding area size (medium screen size)
+$logo-height-md: 100% !default;  // Logo height relative to branding area size (medium screen size)
 $logo-height-lg: 150% !default;  // Logo height relative to branding area size (large screen size)
 $search-results-width: $content-width - $nav-width-lg !default;
 $transition-duration: 400ms !default;
