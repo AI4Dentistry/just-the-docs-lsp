@@ -233,14 +233,14 @@
   // a bit more of the bg image can be seen.
   .main-header {
     background:url($heroBackground) center no-repeat;
-    background-size:contain;
-    padding-bottom:35px;
+    background-size:cover;
+    padding-bottom:300px;
 
     @include mq(md) {
-      padding-bottom:55px;
+      padding-bottom:355px;
     }
     @include mq(lg) {
-      padding-bottom:75px;
+      padding-bottom:375px;
     }
   }
 }
