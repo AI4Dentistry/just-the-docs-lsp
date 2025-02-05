@@ -4,23 +4,23 @@
 .hero-inner {
     @include background-opacity($hero-background-color, $hero-background-opacity);
     position: absolute;
-    left: 0;
+    left: 50px;
     
     @include mq(sm) {
         position: absolute;
-        left: 0;
+        left: 50px;
     }
     @include mq(md) {
         position: absolute;
-        left: 0;
+        left: 50px;
     }
     @include mq(lg) {
         position: absolute;
-        left: 0;
+        left: 50px;
     }
     @include mq(xl) {
         position: absolute;
-        left: 0;
+        left: 50px;
     }
 }
 @if variable-exists(heroBackground) {
