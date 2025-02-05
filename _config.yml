@@ -98,6 +98,7 @@ footer_logos:
   - name: "University of Surrey"
     image: "/assets/images/surrey.png"
     url: "https://www.surrey.ac.uk/"
+    height: 50px
   - name: "Harvard Medical School"
     image: "/assets/images/logo_hms.svg"
     url: "https://fundingawards.nihr.ac.uk/award/NIHR204566"
