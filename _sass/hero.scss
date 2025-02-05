@@ -15,7 +15,7 @@
     @include mq(md) {
         position: absolute;
         left: 3%;  // Keeps it on the leftmost side
-        top: 360px; // Adjust this value to move it up or down
+        top: 320px; // Adjust this value to move it up or down
     }
     @include mq(lg) {
         position: absolute;
