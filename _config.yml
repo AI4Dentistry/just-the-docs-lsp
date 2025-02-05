@@ -93,8 +93,8 @@ license:
 # Linked logos
 footer_logos:
   - name: "Laboratory of Systems Pharmacology"
-    image: "/assets/images/logo_lsp_white.svg"
-    url: "https://labsyspharm.org/"
+    image: "/assets/images/kcl.svg"
+    url: "https://www.kcl.ac.uk/dentistry/research/centre-for-oral-clinical-translational-sciences"
   - name: "Harvard Medical School"
     image: "/assets/images/logo_hms.svg"
     url: "https://hms.harvard.edu/"

@@ -112,8 +112,8 @@ license:
 # Specify one or more linked logos to display.
 footer_logos:
   - name: "Laboratory of Systems Pharmacology"
-    image: "/assets/images/logo_lsp_white.svg"
-    url: "https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/"
+    image: "/assets/images/kcl.svg"
+    url: "https://www.kcl.ac.uk/dentistry/research/centre-for-oral-clinical-translational-sciences"
   - name: "Harvard Medical School"  # the institution the logo represents
     image: "assets/images/logo_hms.svg"  # path to the logo file
     url: "https://hms.harvard.edu/"  # link to the institution (opens in new tab)
