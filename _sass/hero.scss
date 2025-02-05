@@ -6,19 +6,19 @@
     position: relative;
     left: 3%;  // Keeps it on the leftmost side
     max-width:620px;
-    padding:$sp-4 $sp-4 $sp-5;
+    //padding:$sp-4 $sp-4 $sp-5;
     margin-top:30px;
 
     @include mq(sm) {
-        padding:$sp-6;
+        //padding:$sp-6;
     }
     @include mq(md) {
         max-width:720px;
-        padding:$sp-7;
+        //padding:$sp-7;
         margin-top:36px;
     }
     @include mq(lg) {
-        padding:60px;
+        //padding:60px;
         max-width:920px;
         margin-top:60px;
         margin-bottom:10px;
