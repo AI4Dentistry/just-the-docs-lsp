@@ -1,6 +1,6 @@
 <div class="footer-logos">
   {% for item in site.footer_logos %}
-    <div class="footer-logo">
+    <div class="footer-logo" style="display: inline-block; margin-right: 10px;">
       {% if item.image != nil and item.image != "" %}
         {% assign hasImg = true %}
       {% else %}
