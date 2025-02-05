@@ -232,16 +232,20 @@
   // some padding at the bottom of the .main-header element, so 
   // a bit more of the bg image can be seen.
   .main-header {
-    background:url($heroBackground) center no-repeat;
-    background-size:cover;
-    padding-bottom:100px;
-  
-    @include mq(md) {
-      padding-bottom:150px;
-    }
-    @include mq(lg) {
-      padding-bottom:200px;
-    }
+      background: url($heroBackground) center no-repeat;
+      background-size: contain;  // Ensures the whole image fits without cropping
+      background-position: center top;
+      background-repeat: no-repeat;
+      height: 100vh;  // Adjust height as needed to display the full image
+
+      padding-bottom: 100px;
+
+      @include mq(md) {
+          padding-bottom: 150px;
+      }
+      @include mq(lg) {
+          padding-bottom: 200px;
+      }
   }
 } 
 
