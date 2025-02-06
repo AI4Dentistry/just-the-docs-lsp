@@ -14,6 +14,8 @@ layout: table_wrappers
   {% assign hasHeroContent = false %}
 {% endif %}
 
+
+
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: 'en-US' }}">
@@ -81,29 +83,29 @@ layout: table_wrappers
     </div>
   </div>
   <div class="main" id="top">
-    <div id="main-header" class="main-header" >
-      {% if site.search_enabled != false %}
-        <div class="search-overlay" id="search-overlay"></div>
-      {% endif %}
-      <div class="main-branding">
-        <a href="{{ '/' | absolute_url }}" class="site-title lh-tight">{% include title.html %}</a>
-        {% if site.search_enabled != false %}
-          <div id="search-desktop-container">
-            <div class="search" id="search">
-              <div class="search-input-wrap">
-                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search" aria-label="Search" autocomplete="off">
-                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
-              </div>
-              <div id="search-results" class="search-results"></div>
-            </div>
-          </div>
-        {% endif %}
-      </div>
-      {% if hasHeroContent %}
-        {% include hero.html %}
-      {% endif %}
-      {% include header_custom.html %}
-    </div>
+<!--    <div id="main-header" class="main-header">-->
+<!--      {% if site.search_enabled != false %}-->
+<!--        <div class="search-overlay" id="search-overlay"></div>-->
+<!--      {% endif %}-->
+<!--      <div class="main-branding">-->
+<!--        <a href="{{ '/' | absolute_url }}" class="site-title lh-tight">{% include title.html %}</a>-->
+<!--        {% if site.search_enabled != false %}-->
+<!--          <div id="search-desktop-container">-->
+<!--            <div class="search" id="search">-->
+<!--              <div class="search-input-wrap">-->
+<!--                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search" aria-label="Search" autocomplete="off">-->
+<!--                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>-->
+<!--              </div>-->
+<!--              <div id="search-results" class="search-results"></div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        {% endif %}-->
+<!--      </div>-->
+<!--      {% if hasHeroContent %}-->
+<!--        {% include hero.html %}-->
+<!--      {% endif %}-->
+<!--      {% include header_custom.html %}-->
+<!--    </div>-->
     <div id="main-content-wrap" class="main-content-wrap">
 
       {% if page.parent and page.url != "/" %}
