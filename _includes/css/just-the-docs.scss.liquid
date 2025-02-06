@@ -1,8 +1,4 @@
-{% if page.hero_background %}
-  {% assign heroBackground = page.hero_background %}
-{% else %}
-  {% assign heroBackground = site.hero_background %}
-{% endif %}
+{% assign heroBackground = page.hero_background %}
 
 {% if site.logo %}
   $logo: "{{ site.logo | absolute_url }}";
