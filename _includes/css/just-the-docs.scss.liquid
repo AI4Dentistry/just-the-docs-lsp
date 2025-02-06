@@ -2,7 +2,7 @@
   $logo: "{{ site.logo | absolute_url }}";
 {% endif %}
 {% if page.hero_background %}
-  $heroBackground: "{{ page.hero_background | absolute_url }}";
+  $heroBackground: "{{ site.hero_background | absolute_url }}";
 {% endif %}
 {% if site.banner_links.lsp or site.banner_links.hits %}
   $hasBanner: true;
